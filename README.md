@@ -5,6 +5,8 @@ Stellt sicher, dass das richtige passiert, egal was gemacht wird
 Enterprise Loop
 ---------------
 
+[In allen Programmiersprachen](https://github.com/eloop-congress/enterprise-patterns/wiki/Enterpriseloop-von-a-bis-z)
+
 Enterprise Exception Handling
 -----------------------------
 ggf ersetzbar durch enterprise loop.

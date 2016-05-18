@@ -26,6 +26,7 @@ Supernintendo Pattern
 Enterprise Root
 ---------------
 scripts which need root access but are called with lower privileges. The Enterprise Root Pattern provides a Solution for this issue by calling the script itself as sudo.
+```
 <code>
 if test "${nosudo-false}" != true -a `id -u` != 0; then
   echo "we're going sudo..." >&2
@@ -33,6 +34,7 @@ if test "${nosudo-false}" != true -a `id -u` != 0; then
   exit 23 # go to hell
 fi
 </script> // enterprise ist, wenn <code> ... </script> trotzdem matcht
+```
 
 Enterprise Shutdown
 ------------------

@@ -55,13 +55,13 @@ Bug-Driven Development
 
 Source-based Documentation / Help
 ---------------------------------
-<code>
+```
   #! /bin/sh
   if echo "$*" | grep -q '\(^\| \)-h\( \|$\)'; then
     cat "$0"
   fi
   # [more code]
-</code>
+```
 
 Literate Programming
 --------------------
@@ -76,9 +76,9 @@ Enterprise Expect
 Because you always know what you want, `expect(3)` script code can be replaced
 by a `subshell and pipe` pattern :
 
-<code>
+```
     ( echo "$username"; sleep 1; echo "$password"; sleep 1; echo "cp old new" ) | telnet 
-</code>
+```
 
 painload example: `//retiolum/bin/announce_pubkey`
 
